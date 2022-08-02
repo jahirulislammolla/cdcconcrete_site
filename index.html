@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./logo_bottom_2.png"/>
+    <meta property="og:url" content="" />
+	<meta property="og:type" content="website" />
+	<meta property="og:title" content="Coming Soon Page" />
+	<meta property="og:description" content="" />
+    <title>CDCCONCRETE</title>
+    <style>
+
+
+        .content{
+            font-size: 2.25rem;
+            text-align: center;
+            width: 100%;
+            color: white;
+        }
+        body{
+            padding: unset;
+            margin: unset;
+            background-color:#1c84b6;
+        }
+        .nav_bar{
+            background-color: white;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            color:white;
+            background: rgb(253, 254, 254);
+            position: fixed;
+            bottom:0px;
+            width: 100%;
+        }
+        span{
+            padding-right: 150px;
+            color: #1c84b6;
+            font-size: 22px;
+            text-transform: uppercase;
+            font-family: 'Times New Roman', Times, serif;
+        }
+        .null_div{
+            height: 100px;
+        }
+        .image_div{
+            text-align: center;
+            padding: 8px 100px;
+            position: fixed;
+            bottom: 0px;
+            z-index: 3;
+        }
+        #top_image{
+            width: 65px;
+            position: absolute;
+            bottom: 70px;
+            margin-left: 81px;
+            border-top-left-radius: 5px;
+            border-top-right-radius: 5px;
+        }
+        #bottom_image{
+            width: 125px;
+        }
+        h1{
+            padding: unset;
+            margin: unset;
+        }
+        body{
+            position: relative;
+        }
+        .mobile_bar{
+            display: none;
+        }
+        @media only screen and (max-width: 600px) {
+            .content{
+                margin: auto;
+            }
+            h1{
+                font-size: 3rem;
+            }
+            .null_div{
+                height: 110px;
+            }
+            .image_div{
+                display: none;
+            }
+            .nav_bar{
+                display: none;
+            }
+            span{
+                padding: unset;
+                padding-top: 35px;
+            }
+            .mobile_bar{
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center;
+                align-items: center;
+                position: fixed;
+                bottom:0;
+                background-color: white;
+                font-family: 'Times New Roman', Times, serif;
+                width: 100%;
+            }
+            .mobile_bar div{
+                width: 100%;
+                text-align: center;
+            }
+            #mobile_top_image{
+            width: 53px;
+            position: absolute;
+            bottom: 58px;
+            margin-left: 90px;
+            border-top-left-radius: 5px;
+            border-top-right-radius: 5px;
+            }
+            #mobile_bottom_image{
+                width: 125px;
+            }
+            .site_name{
+                padding-bottom: 14px;
+                color: #1c84b6;
+
+            }
+            .mobile_image_div{
+                position: relative;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="image_div">
+        <img id='bottom_image' src="./logo_bottom_2.png" alt="" srcset="">
+    </div>
+    <div class="nav_bar">
+        <div class="null_div"></div>
+        <span>WWW.CDCCONCRETE.COM</span>
+    </div>
+    <div class="mobile_bar">
+        <div class="mobile_image_div">
+            <img id='mobile_bottom_image' src="./logo_bottom_2.png" alt="" srcset="">
+        </div>
+        <div class="site_name">WWW.CDCCONCRETE.COM</div>
+    </div>    
+    <div class="content">
+        <h1 id="header">Our Website is Coming Soon</h1>
+    </div>
+    <script>
+        var width = window.innerWidth;
+        if(width<610)
+        {
+            var height = parseInt((window.innerHeight-90)/2)-60;
+            document.getElementById("header").style.paddingTop=height+"px";
+        }
+        else{
+            var height = parseInt((window.innerHeight-100)/2)-41;
+            document.getElementById("header").style.paddingTop=height+"px";
+        }
+    </script>
+</body>
+</html>

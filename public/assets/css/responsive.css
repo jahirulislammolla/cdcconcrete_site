@@ -1,0 +1,150 @@
+@media (max-width: 575.98px) {
+  h2 {
+    font-size: 1.5rem;
+  }
+  .bangla_text {
+    font-size: 13px;
+  }
+  #main_section_home .about_our_company {
+    padding: 20px 5px;
+  }
+  #main_section_home .about_our_company .main_div .text_div .text {
+    font-size: 15px;
+  }
+  #main_section_home .our_vision_mission {
+    padding: 15px 22px;
+    font-size: 15px;
+  }
+  #main_section_home .our_vision_mission .mission_div {
+    margin-bottom: 15px;
+  }
+  #main_section_home .our_main_service {
+    padding: 15px 0px;
+  }
+  #main_section_home .our_main_service .block_div {
+    margin-bottom: 15px;
+  }
+  #main_section_home .our_sister_concerns {
+    padding: 15px 20px;
+  }
+  #main_section_home .our_clients {
+    padding: 15px 20px;
+  }
+  #main_menu #navbar_button {
+    line-height: 1.4;
+    font-size: 1.3rem;
+  }
+  #main_menu .header_top_div {
+    font-size: 14px;
+  }
+  #main_menu .header_bottom_div .nav-style {
+    justify-content: right;
+    align-items: center;
+    margin-right: unset;
+    position: relative;
+  }
+  #main_menu .header_bottom_div .nav-style .navbar_mobile_css {
+    position: fixed;
+    background-color: #0bb4da;
+    width: 55%;
+    right: 0px;
+  }
+  #main_menu .header_bottom_div .nav-style .navbar_mobile_css a {
+    color: white;
+    font-size: 14px;
+  }
+  #main_menu .header_bottom_div .nav-style .navbar_mobile_css a:hover {
+    background-color: #315ff9;
+  }
+  #main_menu .header_bottom_div .nav_bar_logo img {
+    width: 58px;
+    left: 20px;
+  }
+  #main_menu .header_bottom_div .nav_line_li {
+    display: none;
+  }
+  #header_top a {
+    font-size: 17px;
+    width: 35px;
+  }
+  #header_top a:hover i {
+    font-size: 15px;
+  }
+  #footer-section {
+    font-size: 14px;
+  }
+  #footer-section .footer_top {
+    padding-left: 40px;
+  }
+  #copyright {
+    font-size: 13px;
+  }
+  #copyright .left_div {
+    text-align: center;
+  }
+  #copyright .right_div {
+    text-align: center;
+  }
+  #map {
+    width: 95%;
+    margin: 10px auto;
+  }
+  #rmc_section_one {
+    padding-left: 30px;
+  }
+  #rmc_section_one .table_div table th {
+    padding: 0px;
+    font-size: 8px;
+  }
+  #concrete_block_section_one .block-row {
+    padding-left: 3.5rem;
+    padding-right: 3.5rem;
+  }
+  #quality_control_section .qulality_control {
+    padding-left: 30px;
+  }
+  #plants_equipments_section_one .equipment {
+    margin-left: 55px;
+    margin-right: 45px;
+  }
+  #contact_section_one .contact_us {
+    height: 220px;
+  }
+  #contact_section_one .contact_address {
+    height: 280px;
+  }
+  #contact_section_one .contact_type {
+    height: 170px;
+  }
+  #contact_section_one h2 {
+    padding-top: 5px;
+  }
+  #contact_section_one .contact_time {
+    margin: 15px auto;
+  }
+  #contact_section_one .ask_question .ask_question_text {
+    margin-top: unset;
+    margin-bottom: 15px;
+  }
+  #subscirbe_section_div {
+    padding-top: unset;
+  }
+  #subscirbe_section_div .newsletter .form_div {
+    width: 80%;
+    margin: auto;
+    margin-bottom: 10px;
+  }
+  #subscirbe_section_div .newsletter h5 {
+    font-size: 20px;
+  }
+  #subscirbe_section_div .newsletter .other_social_link .social_link_inner_div a {
+    font-size: 15px;
+  }
+  #gallery_section_one .card_div {
+    padding-left: 50px;
+    padding-right: 40px;
+  }
+  #gallery_section_one .gallery iframe {
+    height: 160px;
+  }
+}
